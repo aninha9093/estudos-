@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte em Movimento</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a, #001f3f);
+            color: white;
+        }
+        header {
+            padding: 2rem;
+            text-align: center;
+            background-color: #001f3f;
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #00aaff;
+            transform: scale(1.1);
+        }
+        main {
+            padding: 2rem;
+            display: grid;
+            gap: 2rem;
+        }
+        section {
+            background: #0d0d0d;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00aaff33;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #001f3f;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            border: 1px solid #00aaff;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #001f3f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Arte em Movimento
+</header>
+
+<nav>
+    <a href="#modulos">Módulos</a>
+    <a href="#exercicios">Exercícios</a>
+    <a href="#desafios">Desafios</a>
+    <a href="#agenda">Agenda</a>
+</nav>
+
+<main>
+    <section id="modulos">
+        <h2>Módulos de Estudo</h2>
+        <ul>
+            <li>Fundamentos do Desenho</li>
+            <li>Anatomia Humana</li>
+            <li>Perspectiva e Espaço</li>
+            <li>Composição e Narrativa Visual</li>
+        </ul>
+    </section>
+
+    <section id="exercicios">
+        <h2>Exercícios Diários</h2>
+        <p>Desenhar 10 formas básicas (circulos, cubos, cones).<br>
+           Estudo de mãos: 5 desenhos diferentes.<br>
+           Estudo de luz e sombra usando objetos simples.</p>
+    </section>
+
+    <section id="desafios">
+        <h2>Desafio da Semana</h2>
+        <p>Desenhar uma cena de fantasia misturando um castelo e uma floresta mágica.</p>
+    </section>
+
+    <section id="agenda">
+        <h2>Agenda de Estudos</h2>
+        <p>Segunda a Sexta: 30 minutos de estudos técnicos.<br>
+           Sábado: Dia de projeto livre.<br>
+           Domingo: Dia de descanso ou revisão dos desenhos da semana.</p>
+
+        <h3>Calendário do Mês</h3>
+        <table>
+            <tr>
+                <th>Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sáb</th>
+            </tr>
+            <tr>
+                <td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+                <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+            </tr>
+            <tr>
+                <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+            </tr>
+            <tr>
+                <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+            </tr>
+            <tr>
+                <td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<footer>
+    Feito com ❤️ para artistas que querem crescer!
+</footer>
+
+</body>
+</html>
